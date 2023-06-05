@@ -1,0 +1,122 @@
+$red-color: rgb(255, 0, 0); 
+$yellow-color: rgb(255, 248, 148); 
+$black-color: rgb(45, 45, 45); 
+$white-color: rgb(255, 255, 255); 
+$blue-color: rgb(0, 17, 129); 
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+$title-size: 3rem; 
+$sub-size: 1.6rem; 
+
+@font-face {
+    font-family: "myfont"; 
+    src: local("quietthiefbold"),
+        url("../../fonts/quietthiefbold.ttf") format("truetype"); 
+}
+
+$title-family: "myfont"; 
+$sub-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+
+body {
+    margin: 0px; 
+    color: $white-color; 
+    overflow-x: hidden; 
+    position: relative; 
+} 
+
+.center {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+} 
+
+button {
+    width: 225px; 
+    height: 50px; 
+    color: $black-color; 
+    background-color: $yellow-color; 
+    border-radius: 35px; 
+    border: none; 
+    font-weight: 600; 
+    font-size: $sub-size; 
+    font-family: $sub-family; 
+    cursor: pointer; 
+} 
+
+h1 {
+    font-family: $title-family; 
+    font-size: $title-size; 
+    margin: 0px; 
+    text-align: center; 
+}
+
+p {
+    font-size: $sub-size; 
+    font-family: $sub-family; 
+    text-indent: 25px; 
+} 
+
+input {
+    font-size: $sub-size; 
+    font-family: $sub-family; 
+} 
+
+a {
+    font-size: $sub-size; 
+    font-family: $sub-family; 
+} 
+
+@media only screen and (min-width: 1024px) {
+    p {
+        font-size: $sub-size + 0.4rem; 
+    }
+
+    h1 {
+        font-size: $title-size + 0.6rem; 
+    } 
+
+    button {
+        font-size: $sub-size + 0.4rem; 
+        width: 265px; 
+        height: 60px; 
+    } 
+
+    input {
+        font-size: $sub-size + 0.4rem; 
+    } 
+
+    a {
+        font-size: $sub-size + 0.4rem; 
+    }
+} 
+
+@media only screen and (min-width: 1680px) {
+    p {
+        font-size: $sub-size + 0.8rem; 
+    }
+
+    h1 {
+        font-size: $title-size + 1rem; 
+    } 
+
+    button {
+        font-size: $sub-size + 0.8rem; 
+        width: 265px; 
+        height: 60px; 
+    } 
+
+    input {
+        font-size: $sub-size + 0.8rem; 
+    } 
+
+    a {
+        font-size: $sub-size + 0.8rem; 
+    }
+}

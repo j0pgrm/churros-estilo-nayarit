@@ -1,0 +1,9 @@
+@import '../partials/_partials.scss'; 
+
+.error-page {
+    width: 100%; 
+    height: 100vh; 
+    @extend .center; 
+    justify-content: space-evenly;
+    flex-direction: column; 
+}

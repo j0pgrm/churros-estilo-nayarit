@@ -1,0 +1,208 @@
+@import '../partials/_partials.scss'; 
+
+.home-page {
+    width: 100%; 
+
+    .opening-page-container {
+        width: 100%; 
+        height: 100vh; 
+        min-height: 500px; 
+        background-size: cover;
+        background-repeat: no-repeat; 
+        @extend .center; 
+
+        .opening-page-content {
+            width: 100%; 
+            height: 100%; 
+            @extend .center; 
+            justify-content: space-evenly; 
+
+            .opening-left-container {
+                width: 90%; 
+                @extend .center; 
+                flex-direction: column; 
+                text-align: center; 
+
+                h1 {
+                    color: $white-color; 
+                }
+        
+                p {
+                    width: 80%; 
+                    color: white; 
+                    text-align: center; 
+                    margin: 35px 0px; 
+                }
+            }
+
+            .opening-right-container {
+                width: 30%; 
+                @extend .center; 
+                display: none; 
+
+                .css-ohwg9z {
+                    width: 350px; 
+                    height: 350px; 
+                    border-radius: 100%; 
+                    text-align: center; 
+
+                    .css-1m9128y {
+                        display: none; 
+                    }
+                }
+
+                img {
+                    width: 350px; 
+                    height: 350px; 
+                }
+            }
+        }
+    }
+
+    .who-we-are-container {
+        width: 100%; 
+        height: auto; 
+        padding: 50px 0px; 
+        color: $black-color; 
+        @extend .center; 
+
+        .who-we-are {
+            width: 90%; 
+            @extend .center; 
+            flex-direction: column; 
+
+            h1 {
+                margin: 25px 0px; 
+            }
+
+            p {
+                width: 90%; 
+            }
+        }
+    }
+
+    .churro-marketing-container {
+        width: 100%; 
+        background-color: $yellow-color; 
+        padding: 50px 0px; 
+        @extend .center; 
+
+        .churro-marketing {
+            width: 90%; 
+            @extend .center; 
+            flex-direction: column; 
+
+            h1 {
+                color: $black-color; 
+                margin: 35px 0px; 
+            }
+    
+            img {
+                width: 200px; 
+                height: auto; 
+                border-radius: 100%; 
+            }
+    
+            p {
+                width: 90%; 
+                color: $black-color; 
+                margin: 25px 0px; 
+            }
+        }
+    }
+
+    .events-done-container {
+        width: 100%; 
+        padding: 50px 0px; 
+        @extend .center; 
+
+        .events-done {
+            width: 90%; 
+            @extend .center; 
+            flex-direction: column; 
+
+            h1 {
+                margin-bottom: 35px; 
+            }
+
+            img {
+                width: 200px; 
+                height: auto; 
+            } 
+
+            p {
+                width: 90%; 
+                margin: 35px 0px; 
+            } 
+
+            button {
+                margin: 25px 0px; 
+            }
+        }
+    }
+} 
+
+@media only screen and (min-width: 1024px) {
+    .home-page .opening-page-container .opening-page-content .opening-left-container {
+        width: 40%; 
+    }
+    
+    .home-page .opening-page-container .opening-page-content .opening-right-container {
+        display: flex; 
+        width: 40%; 
+    }
+} 
+
+@media only screen and (min-width: 1680px) {
+    .home-page .opening-page-container .opening-page-content .opening-left-container {
+        width: 45%; 
+    }
+
+    .home-page .opening-page-container .opening-page-content .opening-right-container {
+        width: 45%; 
+    } 
+
+    .home-page .opening-page-container .opening-page-content .opening-right-container .css-ohwg9z {
+        width: 450px; 
+        height: 450px; 
+
+        img {
+            width: 450px; 
+            height: 450px; 
+        }
+    } 
+
+    .home-page .opening-page-container .opening-page-content {
+        width: 80%; 
+    }
+
+    .home-page .who-we-are-container .who-we-are {
+        width: 75%; 
+    } 
+
+    .home-page .churro-marketing-container .churro-marketing {
+        width: 75%; 
+    } 
+
+    .home-page .events-done-container .events-done {
+        width: 75%; 
+    }
+} 
+
+@media only screen and (min-width: 2160px) {
+    .home-page .opening-page-container .opening-page-content {
+        width: 65%; 
+    } 
+
+    .home-page .who-we-are-container .who-we-are {
+        width: 60%; 
+    } 
+
+    .home-page .churro-marketing-container .churro-marketing {
+        width: 60%; 
+    } 
+
+    .home-page .events-done-container .events-done {
+        width: 60%; 
+    }
+}

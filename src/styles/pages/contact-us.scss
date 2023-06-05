@@ -1,0 +1,111 @@
+@import '../partials/_partials.scss'; 
+
+.contact-us-page {
+    width: 100%; 
+
+    .contact-us-top-container {
+        width: 100%; 
+        padding-top: 125px; 
+        padding-bottom: 50px; 
+        @extend .center; 
+
+        .contact-us-top-content {
+            width: 90%; 
+            @extend .center; 
+            flex-direction: column; 
+
+            h1 {
+                color: $black-color; 
+            }
+
+            .contact-info-and-form-container {
+                width: 100%; 
+                height: auto; 
+                @extend .center; 
+                flex-direction: column; 
+                margin-top: 25px; 
+
+                .contact-info {
+                    width: 100%; 
+                    @extend .center; 
+                    flex-direction: column; 
+                    margin-bottom: 45px; 
+
+                    .contact-item {
+                        @extend .center; 
+                        flex-direction: column; 
+                        color: $black-color; 
+
+                        p {
+                            font-weight: 700; 
+                            text-indent: 0px; 
+                        } 
+                    }
+                } 
+
+                .contact-form {
+                    width: 100%; 
+                    height: auto; 
+                    padding: 35px 0px; 
+                    background-color: $red-color; 
+                    @extend .center; 
+                    flex-direction: column; 
+
+                    h1 {
+                        width: 80%; 
+                        color: $white-color; 
+                        margin: 25px 0px; 
+                    }
+
+                    input {
+                        width: 65%; 
+                        border: none; 
+                        border-radius: 5px; 
+                        padding: 5px 10px; margin: 15px 0px; 
+                        font-size: $sub-size; 
+                        font-family: $sub-family; 
+                    } 
+
+                    textarea {
+                        width: 65%; 
+                        min-width: 65%; 
+                        max-width: 65%; 
+                        min-height: 25px; 
+                        border: none; 
+                        border-radius: 5px; 
+                        padding: 5px 10px; 
+                        margin: 15px 0px; 
+                        font-size: $sub-size; 
+                        font-family: $sub-family; 
+                    }
+
+                    button {
+                        margin-top: 25px; 
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .contact-us-page .contact-us-top-container .contact-us-top-content .contact-info-and-form-container {
+        flex-direction: row; 
+    }
+} 
+
+@media only screen and (min-width: 1680px) {
+    .contact-us-page .contact-us-top-container .contact-us-top-content .contact-info-and-form-container {
+        width: 75%; 
+    }
+
+    .contact-us-page .contact-us-top-container .contact-us-top-content h1 {
+        margin: 45px 0px; 
+    }
+}
+
+@media only screen and (min-width: 2160px) {
+    .contact-us-page .contact-us-top-container .contact-us-top-content .contact-info-and-form-container {
+        width: 60%; 
+    }
+}

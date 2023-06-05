@@ -1,0 +1,83 @@
+@import '../partials/_partials.scss'; 
+
+footer {
+    width: 100%; 
+    @extend .center; 
+    background-color: $yellow-color; 
+    padding: 50px 0px; 
+
+    .footer-content {
+        width: 90%; 
+        @extend .center; 
+        flex-direction: column; 
+
+        img {
+            width: 250px; 
+            height: auto; 
+        }
+    }
+
+    .social-link-container {
+        width: 90%; 
+        @extend .center; 
+        justify-content: space-evenly; 
+
+        svg {
+            width: 45px;
+            height: 45px; 
+            transition: all ease 350ms;
+            cursor: pointer;
+        }
+    } 
+
+    .grid-container {
+        width: 90%; 
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 2fr)); 
+        row-gap: 15px; 
+        height: auto;
+        justify-items: center; 
+        margin: 35px 0px; 
+
+        a {
+            color: $black-color; 
+            text-decoration: none; 
+        }
+    }
+
+    p {
+        color: $black-color; 
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    footer .footer-content img {
+        width: 350px; 
+    } 
+
+    footer .social-link-container svg {
+        width: 55px; 
+        height: 55px; 
+    }
+}
+
+@media only screen and (min-width: 1680px) {
+    footer .footer-content {
+        width: 75%; 
+    } 
+
+    footer .footer-content img {
+        width: 400px; 
+    } 
+
+    footer .social-link-container svg {
+        width: 65px; 
+        height: 65px; 
+    }
+}
+
+@media only screen and (min-width: 2160px) {
+    footer .footer-content {
+        width: 60%; 
+    }
+}
