@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/churros-estilo-nayarit/static/css/main.d0be3f81.css",
+    "main.js": "/churros-estilo-nayarit/static/js/main.b7c2b660.js",
+    "static/js/787.08005f48.chunk.js": "/churros-estilo-nayarit/static/js/787.08005f48.chunk.js",
+    "static/media/myImg.png": "/churros-estilo-nayarit/static/media/myImg.64ade601560b33678aba.png",
+    "static/media/nav-x.png": "/churros-estilo-nayarit/static/media/nav-x.e0810a44e7c874321893.png",
+    "static/media/churro-quince.jpg": "/churros-estilo-nayarit/static/media/churro-quince.8f58b4bbf56f89d98014.jpg",
+    "static/media/churro-estilo-nayarit-logo.png": "/churros-estilo-nayarit/static/media/churro-estilo-nayarit-logo.cef0432b459bfafb9a41.png",
+    "static/media/churro-quince-2.jpg": "/churros-estilo-nayarit/static/media/churro-quince-2.4f0629b3b78696862f06.jpg",
+    "static/media/churro-wedding.jpg": "/churros-estilo-nayarit/static/media/churro-wedding.4e6dff402fdc018fe476.jpg",
+    "static/media/churro-stand-model.jpg": "/churros-estilo-nayarit/static/media/churro-stand-model.496ab3405dfdf5bd3298.jpg",
+    "static/media/churro-1.jpg": "/churros-estilo-nayarit/static/media/churro-1.8c76ec8e0cf2c82827d8.jpg",
+    "static/media/churro-lady.jpg": "/churros-estilo-nayarit/static/media/churro-lady.2cb59b6fffc2aa5b1f6e.jpg",
+    "static/media/churro-stand.jpg": "/churros-estilo-nayarit/static/media/churro-stand.0ef9d43194f6521f9de1.jpg",
+    "static/media/churro-3.jpg": "/churros-estilo-nayarit/static/media/churro-3.05a61b88e3d0d03111b7.jpg",
+    "static/media/churro-truck.jpg": "/churros-estilo-nayarit/static/media/churro-truck.685a73967e1322b15bdd.jpg",
+    "static/media/churro-2.jpg": "/churros-estilo-nayarit/static/media/churro-2.c78a19a1b61aaf390917.jpg",
+    "static/media/quietthiefbold.ttf": "/churros-estilo-nayarit/static/media/quietthiefbold.8aaf81738d662d2099f2.ttf",
+    "static/media/nav-icon.png": "/churros-estilo-nayarit/static/media/nav-icon.5ea52bccbacfa754f9b9.png",
+    "index.html": "/churros-estilo-nayarit/index.html",
+    "main.d0be3f81.css.map": "/churros-estilo-nayarit/static/css/main.d0be3f81.css.map",
+    "main.b7c2b660.js.map": "/churros-estilo-nayarit/static/js/main.b7c2b660.js.map",
+    "787.08005f48.chunk.js.map": "/churros-estilo-nayarit/static/js/787.08005f48.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0be3f81.css",
+    "static/js/main.b7c2b660.js"
+  ]
+}
