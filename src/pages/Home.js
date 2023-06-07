@@ -93,7 +93,7 @@ function Home() {
               esse anim. Lorem exercitation enim irure qui duis 
               commodo. 
             </p>
-            <Link to="/churros-estilo-nayarit/catering">
+            <Link to="/catering">
               <button>More Events</button>
             </Link>
           </div>
