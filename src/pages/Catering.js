@@ -26,7 +26,7 @@ function Catering() {
               quis eu eiusmod cillum sit sunt aute officia ea sint 
               sunt sit.
             </p>
-            <a target="_blank" href="https://linktr.ee/churrosestilonayarit">
+            <a target="_blank" href="https://linktr.ee/churrosestilonayarit" rel="noreferrer">
               <button>Book Reservation</button>
             </a>
           </div>

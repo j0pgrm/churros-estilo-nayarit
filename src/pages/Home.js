@@ -26,7 +26,7 @@ function Home() {
                 amet nisi. Incididunt culpa elit amet eiusmod. 
                 Irure sunt excepteur tempor nulla eu voluptate. 
               </p>
-              <a target="_blank" href="https://linktr.ee/churrosestilonayarit">
+              <a target="_blank" href="https://linktr.ee/churrosestilonayarit" rel="noreferrer">
                 <button>Catering Service</button>
               </a>
             </div>

@@ -38,27 +38,27 @@ function ContactUs() {
             <div className="contact-info">
               <div className="contact-item">
                 <p>Address: </p>
-                <a>2813 N 55th Ave Phoenix, AZ 85035</a>
+                <a href="#0" rel="noreferrer">2813 N 55th Ave Phoenix, AZ 85035</a>
               </div>
               <div className="contact-item">
                 <p>Phone: </p>
-                <a>(623) 340-5212</a>
+                <a href="#0" rel="noreferrer">(623) 340-5212</a>
               </div>
               <div className="contact-item">
                 <p>Email: </p>
-                <a>ChurrosEstiloNayarit@gmail.com</a>
+                <a href="#0" rel="noreferrer">ChurrosEstiloNayarit@gmail.com</a>
               </div>
               <div className="contact-item">
                 <p>Instagram: </p>
-                <a href="https://www.instagram.com/churrosestilonayarit/" target="_blank">instagram.com</a>
+                <a href="https://www.instagram.com/churrosestilonayarit/" target="_blank" rel="noreferrer">instagram.com</a>
               </div>
               <div className="contact-item">
                 <p>Facebook: </p>
-                <a href="https://www.facebook.com/ChurrosEstiloNayarit" target="_blank">facebook.com</a>
+                <a href="https://www.facebook.com/ChurrosEstiloNayarit" target="_blank" rel="noreferrer">facebook.com</a>
               </div>
               <div className="contact-item">
                 <p>Tiktok: </p>
-                <a href="https://www.tiktok.com/@churrosestilonayarit" target="_blank">tiktok.com</a>
+                <a href="https://www.tiktok.com/@churrosestilonayarit" target="_blank" rel="noreferrer">tiktok.com</a>
               </div>
             </div>
             <form className="contact-form" ref={form} onSubmit={sendEmail} style={{background: "url(" + redBack + ")"}}>
