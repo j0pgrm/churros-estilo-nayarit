@@ -20,7 +20,7 @@ function Home() {
         <div className="opening-page-container" style={{background: "url(" + otherRedBack + ")"}}>
           <div className="opening-page-content">
             <div className="opening-left-container">
-              <h1>Churro Estilo Nayarit</h1> 
+              <h1>Churros Estilo Nayarit</h1> 
               <p>
                 Proident cupidatat duis labore do sunt ea occaecat 
                 amet nisi. Incididunt culpa elit amet eiusmod. 
