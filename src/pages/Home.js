@@ -22,7 +22,7 @@ function Home() {
             <div className="opening-left-container">
               <h1>Churros Estilo Nayarit</h1> 
               <p>
-                Proident cupidatat duis labore do sunt ea occaecat 
+                Cupidatat duis labore do sunt ea occaecat 
                 amet nisi. Incididunt culpa elit amet eiusmod. 
                 Irure sunt excepteur tempor nulla eu voluptate. 
               </p>
