@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/churros-estilo-nayarit/static/css/main.d0be3f81.css",
-    "main.js": "/churros-estilo-nayarit/static/js/main.b7c2b660.js",
+    "main.js": "/churros-estilo-nayarit/static/js/main.e9b915eb.js",
     "static/js/787.08005f48.chunk.js": "/churros-estilo-nayarit/static/js/787.08005f48.chunk.js",
     "static/media/myImg.png": "/churros-estilo-nayarit/static/media/myImg.64ade601560b33678aba.png",
     "static/media/nav-x.png": "/churros-estilo-nayarit/static/media/nav-x.e0810a44e7c874321893.png",
@@ -20,11 +20,11 @@
     "static/media/nav-icon.png": "/churros-estilo-nayarit/static/media/nav-icon.5ea52bccbacfa754f9b9.png",
     "index.html": "/churros-estilo-nayarit/index.html",
     "main.d0be3f81.css.map": "/churros-estilo-nayarit/static/css/main.d0be3f81.css.map",
-    "main.b7c2b660.js.map": "/churros-estilo-nayarit/static/js/main.b7c2b660.js.map",
+    "main.e9b915eb.js.map": "/churros-estilo-nayarit/static/js/main.e9b915eb.js.map",
     "787.08005f48.chunk.js.map": "/churros-estilo-nayarit/static/js/787.08005f48.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d0be3f81.css",
-    "static/js/main.b7c2b660.js"
+    "static/js/main.e9b915eb.js"
   ]
 }
