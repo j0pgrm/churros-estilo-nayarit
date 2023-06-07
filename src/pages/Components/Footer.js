@@ -22,11 +22,11 @@ function Footer() {
             </div>
 
             <div className="grid-container">
-                <Link to="/">Home</Link>
-                <Link to="/catering">Catering</Link>
-                <Link to="/about-business">About Business</Link>
-                <Link to="/locations">Location</Link>
-                <Link to="/contact-us">Contact Us</Link>
+                <Link to="/churros-estilo-nayarit/">Home</Link>
+                <Link to="/churros-estilo-nayarit/catering">Catering</Link>
+                <Link to="/churros-estilo-nayarit/about-business">About Business</Link>
+                <Link to="/churros-estilo-nayarit/locations">Location</Link>
+                <Link to="/churros-estilo-nayarit/contact-us">Contact Us</Link>
             </div>
 
             <p>

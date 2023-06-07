@@ -10,11 +10,11 @@ import ErrorPage from './pages/ErrorPage';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/catering" element={<Catering />} /> 
-      <Route path="/about-business" element={<AboutBusiness />} /> 
-      <Route path="/locations" element={<Locations />} /> 
-      <Route path="contact-us" element={<ContactUs />} /> 
+      <Route path="/churros-estilo-nayarit" element={<Home />} />
+      <Route path="/churros-estilo-nayarit/catering" element={<Catering />} /> 
+      <Route path="/churros-estilo-nayarit/about-business" element={<AboutBusiness />} /> 
+      <Route path="/churros-estilo-nayarit/locations" element={<Locations />} /> 
+      <Route path="/churros-estilo-nayarit/contact-us" element={<ContactUs />} /> 
       <Route path="*" element={<ErrorPage />} /> 
     </Routes>
   );
