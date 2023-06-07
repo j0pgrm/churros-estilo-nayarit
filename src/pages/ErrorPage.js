@@ -7,6 +7,7 @@ function ErrorPage() {
   return (
     <div className="error-page" style={{background: "url(" + redBack + ")"}}>
       <h1>404 Page</h1>
+      <h1>Not Found</h1>
       <Link to="/churros-estilo-nayarit">
         <button>Go Back</button>
       </Link>
