@@ -18,13 +18,24 @@ function Catering() {
           <div className="catering-top-content">
             <h1>Catering</h1>
             <p>
-              Elit labore ea dolor commodo culpa laboris ea in 
-              magna mollit aliqua ipsum. Eiusmod anim quis 
-              exercitation irure in eiusmod non aute nulla minim.
-              Culpa aliquip fugiat irure amet ipsum dolor. Nostrud 
-              et irure laborum quis veniam cupidatat. Enim excepteur
-              quis eu eiusmod cillum sit sunt aute officia ea sint 
-              sunt sit.
+              Make your next event extra sweet with a Churro Topping Bar. 
+              Catered bars the next big thing for any event. We have built 
+              a unique concept of having fresh Churros made on-site that 
+              allows guests the ability to customize each serving to their 
+              liking with a broad selection of sweet toppings. You and 
+              your guest will love this dessert option giving everyone 
+              the opportunity to have a desert to their liking. Don’t 
+              wait book today!
+            </p>
+            <p>
+              Haz que tu próximo evento sea más dulce con una barra de 
+              churros. Las bares son la próxima novedad para cualquier 
+              evento. Hemos creado un concepto único de churros calientitos 
+              hechos en el momento con la abilidad de personalizar cada 
+              porción a su gusto con una amplia selección de ingredientes 
+              dulces. A ti y a tus invitados les encantará esta opción de 
+              postre que les da a todos la oportunidad de tener un postre a 
+              su gusto. ¡No esperes reserva hoy!
             </p>
             <a target="_blank" href="https://linktr.ee/churrosestilonayarit" rel="noreferrer">
               <button>Book Reservation</button>
@@ -41,24 +52,19 @@ function Catering() {
               <div className="event-content">
                 <img alt="" src={quince2} />
                 <p>
-                  Elit sit duis occaecat duis exercitation 
-                  consectetur laborum aliquip ad ad esse nulla 
-                  qui quis.
+                  We have catered quinceañeras 
                 </p>
               </div>
               <div className="event-content">
                 <img alt="" src={wedding} /> 
                 <p>
-                  Cillum incididunt ipsum veniam labore aliqua 
-                  sunt dolore enim voluptate cillum Lorem tempor 
-                  culpa.
+                  We have catered weddings 
                 </p>
               </div>
               <div className="event-content">
                 <img alt="" src={quince} /> 
                 <p>
-                  Incididunt nulla esse aute aliquip adipisicing 
-                  nisi excepteur adipisicing veniam anim anim.
+                  We have catered parties 
                 </p>
               </div>
               

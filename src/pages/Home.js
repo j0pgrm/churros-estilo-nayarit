@@ -22,9 +22,11 @@ function Home() {
             <div className="opening-left-container">
               <h1>Churros Estilo Nayarit</h1> 
               <p>
-                Cupidatat duis labore do sunt ea occaecat 
-                amet nisi. Incididunt culpa elit amet eiusmod. 
-                Irure sunt excepteur tempor nulla eu voluptate. 
+                Make your next event extra sweet with a Churro Topping 
+                Bar. Catered bars the next big thing for any event.
+                Haz que tu próximo evento sea más dulce con una barra 
+                de churros. Las bares son la próxima novedad para 
+                cualquier evento.
               </p>
               <a target="_blank" href="https://linktr.ee/churrosestilonayarit" rel="noreferrer">
                 <button>Catering Service</button>
@@ -44,28 +46,39 @@ function Home() {
           <div className="who-we-are">
             <h1>Who We Are</h1>
             <p>
-              Ipsum ut elit mollit excepteur eu qui 
-              laborum proident ipsum proident.
-              Non elit sit tempor elit qui magna et 
-              irure reprehenderit et culpa et eu est.
-              Voluptate consequat veniam veniam anim qui 
-              mollit ex sit anim dolor. Aute nisi mollit sunt 
-              officia Lorem tempor laboris esse qui quis magna 
-              proident consequat. Nulla sint id enim sunt qui 
-              culpa consequat culpa excepteur qui. Mollit qui 
-              laborum ut ut qui tempor esse elit labore 
-              voluptate dolore et sint eiusmod. Deserunt ullamco 
-              fugiat enim ex consequat eu fugiat cillum magna. 
+              Churros Estilo Nayarit was born in 2001 when a mother was 
+              looking for opportunities to help her loving husband raise 
+              their family. New to Arizona they built this business from 
+              scratch starting with a Churro machine and a dream. Slowly 
+              they went from selling outside their home to owning their 
+              first food truck. By 2010 they open their first brick and 
+              mortar at Desert Sky Mall Mercado de Los Cielos. Building 
+              a reputation for being the BEST CHURROS in town, this small 
+              business continues to operate out of a food truck and has 
+              even expanded to offering catering services. We strive to 
+              provide our customers with the best experience at their 
+              events with the most delicious Churros made with only 
+              quality ingredients. We thank everyone of our customers 
+              for the continued support and look forward to continue 
+              to serve delicious Churros for more time to come!
             </p>
             <p>
-              Lorem mollit laborum anim deserunt excepteur Lorem 
-              do ullamco duis et. Amet magna pariatur velit tempor 
-              anim commodo. Culpa sunt nisi anim laborum mollit 
-              nisi cillum incididunt labore eiusmod sit sunt. 
-              Proident esse in esse elit duis eu. Sint deserunt 
-              consectetur duis consequat eu. Fugiat fugiat dolore 
-              nostrud ullamco nostrud amet enim ut dolore cillum 
-              id amet.
+              Churros Estilo Nayarit nació en el 2001 cuando una madre 
+              buscaba oportunidades para ayudar a su amado esposo a criar 
+              a su familia. Nuevos en Arizona, construyeron este negocio 
+              desde cero comenzando con una máquina de Churros y un sueño. 
+              Poco a poco pasaron de vender fuera de su casa a ser dueños 
+              de su primer camión de comida. Para el 2010 abrieron su 
+              primera tienda tradicional en Desert Sky Mall Mercado de 
+              Los Cielos. Construyendo una reputación de ser los MEJORES 
+              CHURROS de la ciudad, esta pequeña empresa continúa 
+              operando desde un camión de comida e incluso se ha 
+              expandido para ofrecer servicios de catering. Nos esforzamos 
+              por brindar a nuestros clientes la mejor experiencia en sus 
+              eventos con los más deliciosos churros elaborados solo con 
+              ingredientes de calidad. ¡Agradecemos a todos nuestros 
+              clientes por el continuo apoyo y esperamos seguir 
+              sirviendo deliciosos churros por más tiempo!
             </p>
           </div>
         </div>
@@ -75,10 +88,18 @@ function Home() {
             <h1>Our Tasty Churros</h1>
             <img alt="" src={churro1} /> 
             <p>
-              Culpa labore fugiat reprehenderit deserunt adipisicing 
-              quis pariatur nulla consequat occaecat ex quis 
-              reprehenderit. Aute esse tempor anim laborum cillum 
-              deserunt eu.
+              Indulge your taste buds with our delectable churros, 
+              where you have the opportunity to customize them according 
+              to your personal preferences. At our establishment, we pride 
+              ourselves on offering a unique and memorable churro 
+              experience that caters to each individual's cravings.
+            </p>
+            <p>
+              Deleite su paladar con nuestros deliciosos churros, 
+              donde tiene la oportunidad de personalizarlos según sus 
+              preferencias personales. En nuestro establecimiento, nos 
+              enorgullecemos de ofrecer una experiencia de churros única 
+              y memorable que satisfaga los antojos de cada individuo.
             </p>
           </div>
         </div>
@@ -88,10 +109,11 @@ function Home() {
             <h1>Events we've Catered</h1>
             <img alt="" src={churroQuince} /> 
             <p>
-              Irure et ut sunt ipsum eiusmod ut eiusmod enim irure. 
-              Aute cupidatat laborum aliquip excepteur minim in 
-              esse anim. Lorem exercitation enim irure qui duis 
-              commodo. 
+              Make your next event extra sweet with a Churro Topping 
+              Bar. Catered bars the next big thing for any event.Haz 
+              que tu próximo evento sea más dulce con una barra de 
+              churros. Las bares son la próxima novedad para 
+              cualquier evento.
             </p>
             <Link to="/catering">
               <button>More Events</button>

@@ -14,20 +14,38 @@ function AboutBusiness() {
         <div className="about-business-top-content">
           <h1>About Our Business</h1>
           <p>
-            Ullamco aliquip culpa ipsum enim labore consectetur. 
-            Eu labore veniam sit reprehenderit minim exercitation 
-            laborum. Deserunt ipsum est culpa ea qui duis magna 
-            consectetur.
+            Churros Estilo Nayarit was born in 2001 when a mother was looking 
+            for opportunities to help her loving husband raise their family. 
+            New to Arizona they built this business from scratch starting 
+            with a Churro machine and a dream. Slowly they went from selling 
+            outside their home to owning their first food truck. By 2010 
+            they open their first brick and mortar at Desert Sky Mall Mercado 
+            de Los Cielos. Building a reputation for being the BEST 
+            CHURROS in town, this small business continues to operate 
+            out of a food truck and has even expanded to offering catering 
+            services. We strive to provide our customers with the best 
+            experience at their events with the most delicious Churros 
+            made with only quality ingredients. We thank everyone of our 
+            customers for the continued support and look forward to continue 
+            to serve delicious Churros for more time to come!
           </p>
           <img alt="" src={churroStand} /> 
           <p>
-            Est aliquip anim ullamco laborum mollit velit adipisicing 
-            consequat magna Lorem. Aliqua ad adipisicing velit enim quis 
-            nostrud laborum nulla veniam qui magna proident. Labore enim 
-            exercitation et veniam sit excepteur. Ad commodo do magna 
-            officia. Aliqua est occaecat cillum exercitation enim ea 
-            sit voluptate et mollit. Aute irure velit adipisicing 
-            eiusmod.
+            Churros Estilo Nayarit nació en el 2001 cuando una madre 
+            buscaba oportunidades para ayudar a su amado esposo a criar a 
+            su familia. Nuevos en Arizona, construyeron este negocio desde 
+            cero comenzando con una máquina de Churros y un sueño. Poco a 
+            poco pasaron de vender fuera de su casa a ser dueños de su 
+            primer camión de comida. Para el 2010 abrieron su primera tienda 
+            tradicional en Desert Sky Mall Mercado de Los Cielos. Construyendo 
+            una reputación de ser los MEJORES CHURROS de la ciudad, esta 
+            pequeña empresa continúa operando desde un camión de comida e 
+            incluso se ha expandido para ofrecer servicios de catering. 
+            Nos esforzamos por brindar a nuestros clientes la mejor 
+            experiencia en sus eventos con los más deliciosos churros 
+            elaborados solo con ingredientes de calidad. ¡Agradecemos a 
+            todos nuestros clientes por el continuo apoyo y esperamos 
+            seguir sirviendo deliciosos churros por más tiempo!
           </p>
         </div>
       </div>
