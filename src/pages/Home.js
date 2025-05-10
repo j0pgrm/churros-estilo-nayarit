@@ -28,7 +28,7 @@ function Home() {
                 de churros. Las bares son la próxima novedad para 
                 cualquier evento.
               </p>
-              <a target="_blank" href="https://www.instagram.com/direct/t/107801280617047" rel="noreferrer">
+              <a target="_blank" href="https://www.instagram.com/churrosestilonayarit/" rel="noreferrer">
                 <button>Catering Service</button>
               </a>
             </div>
