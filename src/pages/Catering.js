@@ -37,7 +37,7 @@ function Catering() {
               postre que les da a todos la oportunidad de tener un postre a 
               su gusto. ¡No esperes reserva hoy!
             </p>
-            <a target="_blank" href="https://linktr.ee/churrosestilonayarit" rel="noreferrer">
+            <a target="_blank" href="https://www.instagram.com/churrosestilonayarit/" rel="noreferrer">
               <button>Book Reservation</button>
             </a>
           </div>
