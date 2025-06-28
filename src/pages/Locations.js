@@ -7,6 +7,7 @@ import churroTruck from '../img/churro-truck.jpg';
 import churroStandModel from '../img/churro-stand-model.jpg'; 
 import churroStand from '../img/churro-stand.jpg'; 
 import churroLady from '../img/churro-lady.jpg'; 
+import churrosMenu from '../img/churros-menu-pic.jpeg'; 
 
 function Locations() {
 
@@ -30,7 +31,7 @@ function Locations() {
           <p>2813 N 55th Ave Phoenix, AZ</p>
 
           <div className="location-box-container">
-            {
+            {/* {
               !isLoaded ? (
                 
                 <h1>Loading...</h1>
@@ -44,7 +45,7 @@ function Locations() {
                 >
                   <Marker position={{ lat: 33.478490, lng: -112.177580 }} />
                 </GoogleMap>
-            )}
+            )} */}
           </div>
 
           <div className="hours-container">
@@ -63,6 +64,7 @@ function Locations() {
           <div className="img-grid-container">
             <img alt="" src={churroTruck} /> 
             <img alt="" src={churroStandModel} /> 
+            <img alt="" src={churrosMenu} /> 
             <img alt="" src={churroStand} /> 
             <img alt="" src={churroLady} /> 
           </div>

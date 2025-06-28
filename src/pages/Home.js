@@ -9,6 +9,8 @@ import churro3 from '../img/churro-3.jpg';
 import churroQuince from '../img/churro-quince.jpg'; 
 import Footer from './Components/Footer'; 
 import { Link } from 'react-router-dom';
+import churrosVid1 from '../img/churros-vid-1.mp4'; 
+import churrosVid2 from '../img/churros-vid-2.mp4'; 
 
 function Home() {
   return (
@@ -28,7 +30,7 @@ function Home() {
                 de churros. Las bares son la próxima novedad para 
                 cualquier evento.
               </p>
-              <a target="_blank" href="https://linktr.ee/churrosestilonayarit" rel="noreferrer">
+              <a target="_blank" href="https://www.instagram.com/churrosestilonayarit/" rel="noreferrer">
                 <button>Catering Service</button>
               </a>
             </div>
@@ -45,6 +47,19 @@ function Home() {
         <div className="who-we-are-container">
           <div className="who-we-are">
             <h1>Who We Are</h1>
+
+            <div className="video-flex-container">
+              <video controls autoplay muted loop>
+                <source src={churrosVid1} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+
+              <video controls autoplay muted loop>
+                <source src={churrosVid2} type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+
             <p>
               Churros Estilo Nayarit was born in 2001 when a mother was 
               looking for opportunities to help her loving husband raise 

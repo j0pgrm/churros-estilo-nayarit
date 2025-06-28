@@ -6,6 +6,7 @@ import '../styles/pages/catering.scss';
 import quince from '../img/churro-quince.jpg'; 
 import quince2 from '../img/churro-quince-2.jpg'; 
 import wedding from '../img/churro-wedding.jpg'; 
+import wedding2 from '../img/churros-couple-pic.jpeg'; 
 
 function Catering() {
   return (
@@ -37,7 +38,7 @@ function Catering() {
               postre que les da a todos la oportunidad de tener un postre a 
               su gusto. ¡No esperes reserva hoy!
             </p>
-            <a target="_blank" href="https://linktr.ee/churrosestilonayarit" rel="noreferrer">
+            <a target="_blank" href="https://www.instagram.com/churrosestilonayarit/" rel="noreferrer">
               <button>Book Reservation</button>
             </a>
           </div>
@@ -52,19 +53,25 @@ function Catering() {
               <div className="event-content">
                 <img alt="" src={quince2} />
                 <p>
-                  We have catered quinceañeras 
+                  Churro catering for a beautiful quinceañera celebration
                 </p>
               </div>
               <div className="event-content">
                 <img alt="" src={wedding} /> 
                 <p>
-                  We have catered weddings 
+                  Making weddings sweeter with our churro bar experience
                 </p>
               </div>
               <div className="event-content">
                 <img alt="" src={quince} /> 
                 <p>
-                  We have catered parties 
+                  Adding fun and flavor to birthday parties and special events
+                </p>
+              </div>
+              <div className="event-content">
+                <img alt="" src={wedding2} /> 
+                <p>
+                  Elegant churro setup for formal gatherings and receptions
                 </p>
               </div>
               

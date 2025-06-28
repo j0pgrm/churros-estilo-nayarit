@@ -78,6 +78,17 @@
             p {
                 width: 90%; 
             }
+
+            .video-flex-container {
+                width: 100%; 
+                height: auto; 
+                @extend .center; 
+                justify-content: space-evenly; 
+
+                video {
+                    width: 25%; 
+                }
+            }
         }
     }
 
@@ -204,5 +215,16 @@
 
     .home-page .events-done-container .events-done {
         width: 60%; 
+    }
+}
+
+
+.css-ktslay-MuiButtonBase-root-MuiIconButton-root {
+    display: none !important; 
+}
+
+@media only screen and (max-width: 768px) {
+    .home-page .who-we-are-container .who-we-are .video-flex-container video {
+        width: 40%; 
     }
 }
